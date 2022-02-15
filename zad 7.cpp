@@ -20,19 +20,19 @@ int main()
 
 	int a, b;
 
-	cout << "Podaj liczbe 1";
+	cout << "Podaj LICZBE 1";
 	cin >> a;
-	cout << "Podaj liczbe 2";
+	cout << "Podaj LICZBE 2";
 	cin >> b;
 
 	if (a == 0 || b == 0) {
 
-		cout << "liczby muszą być różne od 0!!";
+		cout << "LICZBY muszą być różne od 0!!";
 
 	}
 	else {
 
-		cout << "Liczba " << a << " do potegi " << b << " to: " << potegi(a, b);
+		cout << "LICZBA " << a << " do potegi " << b << " to: " << potegi(a, b);
 	}
 
 
